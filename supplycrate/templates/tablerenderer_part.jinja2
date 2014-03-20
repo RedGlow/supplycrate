@@ -1,0 +1,25 @@
+<span class="part kind_{{part.kind}}">
+
+	{% if part.kind == "item" %}
+	
+		{% include "supplycrate:templates/tablerenderer_item.jinja2" %}
+	
+	{% elif part.kind == "specialitem" %}
+	
+		{% include "supplycrate:templates/tablerenderer_specialitem.jinja2" %}
+	
+	{% elif part.kind == "text" %}
+	
+		{% include "supplycrate:templates/tablerenderer_text.jinja2" %}
+		
+	{% elif part.kind == "cost" %}
+	
+		{% include "supplycrate:templates/tablerenderer_cost.jinja2" %}
+	
+	{% else %}
+	
+		oh :-O
+	
+	{% endif %}
+	
+</span>

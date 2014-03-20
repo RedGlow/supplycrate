@@ -1,0 +1,91 @@
+{% extends "supplycrate:templates/base.jinja2" %}
+
+{% block head %}
+	<link rel="stylesheet" href="{{'supplycrate:static/css/tablerenderer_style.css'|static_url}}" type="text/css"/>
+	{% if table.name %}
+	<link rel="stylesheet" href="{% filter static_url %}supplycrate:static/css/{{table.name}}_style.css{% endfilter %}" type="text/css"/>
+	{% endif %}
+	<script src="{{'supplycrate:static/js/tablerenderer_script.js'|static_url}}" type="text/javascript"></script>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="tablerenderer {{table.name|default_if_none('')}}">
+
+<form class="options" action="{{ request.path }}">
+
+<div class="block buy light-color-background">
+	<div class="title">Buy</div>
+	<input type="radio" name="buy_instant" value="0"
+	{% if not buy_instant %}checked="checked"{% endif %}
+	onclick="javascript:return TableRenderer.formChanged(this);">Order</input>
+	<input type="radio" name="buy_instant" value="1"
+	{% if buy_instant %}checked="checked"{% endif %}
+	onclick="javascript:return TableRenderer.formChanged(this);">Instant</input>
+</div>
+
+<div class="block sell light-color-background">
+	<div class="title">Sell</div>
+	<input type="radio" name="sell_instant" value="0"
+		{% if not sell_instant %}checked="checked"{% endif %}
+		onclick="javascript:return TableRenderer.formChanged(this);">Order</input>
+	<input type="radio" name="sell_instant" value="1"
+		{% if sell_instant %}checked="checked"{% endif %}
+		onclick="javascript:return TableRenderer.formChanged(this);">Instant</input>
+</div>
+
+{% for category_name, query_key, category_data in table.categories_data() %}
+<div class="block categories light-color-background">
+	<div class="title">{{category_name|capitalize}}</div>
+	{% for category, enabled in category_data %}
+	<input type="checkbox" name="{{ query_key }}" value="{{ category }}"
+	{% if enabled %}checked="checked"{% endif %}
+	onclick="javascript:return TableRenderer.formChanged(this);">{{ category }}</input>
+	{% endfor %}
+</div>
+{% endfor %}
+
+<div class="submit">
+	<input type="submit" disabled="disabled" value="Update" id="submit_parameters"/>
+</div>
+
+</form>
+
+{% include "supplycrate:templates/tablerenderer_pager.jinja2" %}
+
+<table class="main light-color-background">
+<thead>
+	<tr class="row">
+		{% for column_description in table.extended_column_descriptions %}
+		<th class="{% if table.sorting_column == loop.index0 %} sorting {{column_description.current_sort_order}} {% endif %} {{ column_description.name|default_if_none('') }}">
+		
+			<a class="strong-color-foreground" href="{{ request.path }}?{{ query_args|remove_from_url('sort')|set_in_url(loop.index0)|remove_from_url('order')|set_in_url(column_description.anchor_sort_order) }}">
+			{{ column_description.title }}
+			</a>
+		</th>
+		{% endfor %}
+	</tr>
+</thead>
+<tbody>
+	{% for row in table.rows %}
+	<tr class="row{% if loop.index0 is divisibleby 2 %} very-light-color-background{% endif %}">
+		{% for cell in row.cells %}
+			<td class="cell {{table.column_descriptions|index(loop.index0)|attr('name')|default_if_none('')}}">
+				<div class="cellcontent">
+					{% for part in cell.parts %}{% with part=part %}{% include "supplycrate:templates/tablerenderer_part.jinja2" %}{% endwith %}{% endfor %}
+				</div>
+				{% if row.old and loop.last %}
+				<img class="old" src="{{ STATIC_URL }}warning.png" alt="TP data about this row is old!" title="TP data about this row is old!"/>
+				{% endif %}
+			</td>
+		{% endfor %}
+	</tr>
+	{% endfor %}
+</tbody>
+</table>
+
+{% include "supplycrate:templates/tablerenderer_pager.jinja2" %}
+
+</div>
+{% endblock %}

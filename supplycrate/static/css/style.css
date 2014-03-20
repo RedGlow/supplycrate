@@ -1,0 +1,22 @@
+.currency {
+	padding-right: 16px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.currency.gold {
+	background-image: url('http://www.gw2spidy.com/assets/v20130214v1/img/gold.png');
+}
+.currency.silver {
+	background-image: url('http://www.gw2spidy.com/assets/v20130214v1/img/silver.png');
+}
+.currency.copper {
+	background-image: url('http://www.gw2spidy.com/assets/v20130214v1/img/copper.png');
+}
+
+.instructions pre {
+	display: inline;
+}
+pre.error {
+	margin-top: 0;
+	margin-bottom: 0;
+}

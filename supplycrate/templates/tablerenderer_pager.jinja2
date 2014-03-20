@@ -1,0 +1,5 @@
+<div class="pager light-color-background">
+{# it's important not to have space here, or they will cause extra margins to elements #}
+{% for page in table.pages %}<div class="link-wrapper{% if loop.last %} last{% endif %}"><{% if page.has_link %}a href="{{ request.path }}?{{ query_args|remove_from_url('page')|set_in_url(page) }}"{% else %}span{% endif %}
+	class="page{% if page.num == table.page %} current strong-color-foreground{% endif %}">{{ page }}</{% if page.has_link %}a{% else %}span{% endif %}></span></div>{% endfor %}
+</div>

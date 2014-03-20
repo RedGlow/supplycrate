@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.normalpage {
+	padding: 20px;
+}
+
+h2:before
+{
+	content: "» ";
+}

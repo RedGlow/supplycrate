@@ -1,0 +1,32 @@
+.grandmaster th.item, .grandmaster td.item {
+	max-width: 350px;
+}
+
+.grandmaster th.goldcost, .grandmaster th.profit, .grandmaster th.netprofit {
+	min-width: 120px;
+}
+
+.grandmaster td.ingredients {
+	min-width: 500px;
+}
+
+.grandmaster th.ingredients {
+	width: 100%;
+}
+
+
+/*
+ OVERRIDDEN GENERIC COLOR INFORMATIONS
+ */
+
+.light-color-background {
+	background-color: #f8f0ea !important;
+}
+
+.very-light-color-background {
+	background-color: #faf5f2 !important;
+}
+
+.strong-color-foreground {
+	color: #682b03 !important;
+}

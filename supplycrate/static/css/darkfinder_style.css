@@ -1,0 +1,31 @@
+.darkfinder th.item, .darkfinder td.item {
+	max-width: 350px;
+}
+
+.darkfinder th.goldcost, .darkfinder th.profit, .darkfinder th.netprofit {
+	min-width: 105px;
+}
+
+.darkfinder th.ingredients {
+	min-width: 500px;
+}
+
+.darkfinder th.upgrade, .darkfinder td.upgrade {
+	width: 100%; /* shouldn't be necessary, but whatever */
+}
+
+/*
+ OVERRIDDEN GENERIC COLOR INFORMATIONS
+ */
+
+.light-color-background {
+	background-color: #eaf8f1 !important;
+}
+
+.very-light-color-background {
+	background-color: #f2faf6 !important;
+}
+
+.strong-color-foreground {
+	color: #036837 !important;
+}

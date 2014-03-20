@@ -1,0 +1,113 @@
+/*
+ HEADER BAR STYLE
+ */
+
+body {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	-webkit-text-stroke: 1px rgba(1, 1, 1, 0.1);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	background-color: #383838;
+	height: 53px;
+	margin: 0px;
+	color: white;
+	padding-top: 10px;
+}
+
+h1 .logo-part1 {
+	padding-right: 42px;
+	margin-left: 45px;
+	background-image: url('../img/supply_crate.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+ul.right-box {
+	float: right;
+	margin-right: 45px;
+	list-style-type: none;
+	margin: 0px;
+	border: 0px;
+	padding: 0px 45px 0px 0px;
+	height: 53px;
+	padding-top: 10px;
+}
+
+ul.right-box a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+}
+
+ul.right-box a:hover {
+	color: #383838;
+	background-color: white;
+}
+
+.navigation {
+	background-color: #e6e6e6;
+	height: 96px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navigation ul {
+	list-style-type: none;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.navigation li {
+	display: inline-block;
+	height: 96px;
+	width: 250px;
+}
+
+.navigation li span {
+	padding-top: 20px;
+	display: inline-block;
+}
+
+.navigation li a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Open Sans Light', sans-serif;
+	font-size: 36px;
+}
+
+.navigation li:hover {
+	background-color: #f8f8f8;
+}
+
+.navigation li.selected {
+	background-color: white;
+}
+
+.navigation li a:hover {
+	color: black;
+	background-color: transparent;
+}
+
+/*
+ * GENERIC STYLE
+ */
+
+a {
+	text-decoration: none;
+	color: #686868
+}
+
+a:hover {
+	color: black;
+	background-color: #f8f8f8;
+}

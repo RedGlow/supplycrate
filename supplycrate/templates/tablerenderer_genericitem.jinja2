@@ -1,0 +1,36 @@
+<div class="item-parent id_{{id}}">
+	<table class="horrortable">
+		<tr>
+			<td class="icon-row">
+				<img class="icon" src="{{icon}}"/>
+			</td>
+			<td class="description-row">
+				{% if extra_pre_line %}
+					{% for subpart in extra_pre_line %}
+						<span class="part kind_{{subpart.kind}}">
+						    {% with part=subpart %}
+                                {% if subpart.kind == "text" %}
+                                    {% include "supplycrate:templates/tablerenderer_text.jinja2" %}
+                                {% elif subpart.kind == "cost" %}
+                                    {% include "supplycrate:templates/tablerenderer_cost.jinja2" %}
+                                {% else %}
+                                    oh :-O
+                                {% endif %}
+                            {% endwith %}
+						</span>
+					{% endfor %}
+				{% endif %}
+				<div class="name">{{name}}</div>
+				<div class="firstline">{{first_line}}</div>
+				<div class="secondline">{{second_line}}</div>
+			</td>
+		</tr>
+	</table>
+	{% if wikilink %}
+	<div class="links">
+		<a href="{{name|wikilink}}" target="_blank"><img src="{{'supplycrate:static/img/wiki_icon.png'|static_url}}"/></a>
+		<a href="http://www.gw2spidy.com/item/{{ data_id }}" target="_blank"><img src="{{'supplycrate:static/img/spidy_icon.png'|static_url}}"/></a>
+		<a href="http://www.gw2db.com/items/{{ external_id }}" target="_blank"><img src="{{'supplycrate:static/img/gw2db_icon.png'|static_url}}"/></a>
+	</div>
+	{% endif %}
+</div>

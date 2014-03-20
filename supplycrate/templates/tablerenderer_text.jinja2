@@ -1,0 +1,7 @@
+{% for content in part.parts() %}
+	{% if content.kind == "text" %}
+		<span>{{ content.text }}</span>
+	{% else %}
+		<img src="{{ content.icon|static_url }}"/>
+	{% endif %}
+{% endfor %}

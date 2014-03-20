@@ -1,0 +1,27 @@
+.nigredo th.item, .nigredo td.item {
+	max-width: 350px;
+}
+
+.nigredo th.goldcost, .nigredo th.profit, .nigredo th.netprofit {
+	min-width: 105px;
+}
+
+.nigredo th.ingredients {
+	min-width: 500px;
+}
+
+/*
+ OVERRIDDEN GENERIC COLOR INFORMATIONS
+ */
+
+.light-color-background {
+	background-color: #eaf8f8 !important;
+}
+
+.very-light-color-background {
+	background-color: #f2fafa !important;
+}
+
+.strong-color-foreground {
+	color: #036868 !important;
+}

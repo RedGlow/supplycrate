@@ -1,0 +1,1 @@
+{% with icon=part.icon, id=part.inner_item.data_id, name=part.inner_item.name, first_line=part.first_line, second_line=part.second_line, extra_pre_line=part.extra_pre_line, data_id=part.data_id(), external_id=part.external_id(), wikilink=True %}{% include "supplycrate:templates/tablerenderer_genericitem.jinja2" %}{% endwith %}

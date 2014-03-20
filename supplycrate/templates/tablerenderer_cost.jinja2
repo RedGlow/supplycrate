@@ -1,0 +1,3 @@
+{% for price_element in part.costparts %}
+	<span class="price {{price_element.currency}}">{{price_element.amount}}</span>
+{% endfor %}

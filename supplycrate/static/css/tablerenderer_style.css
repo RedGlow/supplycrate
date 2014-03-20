@@ -1,0 +1,283 @@
+/*
+ GENERIC COLOR INFORMATIONS TO OVERRIDE
+ */
+
+.light-color-background {
+	background-color: #f8f8f8;
+}
+
+.very-light-color-background {
+	background-color: #fafafa;
+}
+
+.strong-color-foreground {
+	color: #686868;
+}
+
+/*
+ OPTIONS STYLE
+ */
+
+.options {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.options .block {
+	vertical-align: top;
+	padding: 10px;
+	margin: 20px 20px 0px 20px;
+	display: inline-block;
+	border: 10px;
+	height: 74px;
+}
+
+.options .block .title {
+	font-size: 21px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #e6e6e6;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.options .block .submit {
+	margin-top: 5px;
+}
+
+.options .submit {
+	margin-top: 5px;
+}
+
+.options .submit input {
+	width: 200px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+/*
+ PAGER STYLE
+ */
+
+.pager {
+	font-family: 'Open Sans Semi-Bold', sans-serif;
+	font-size: 16px;
+	height: 60px;
+	text-align: center;
+	padding: 0px;
+	margin: 30px 100px 15px;
+}
+
+.pager .link-wrapper {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.pager .page {
+	display: inline-block;
+	width: 40px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: black;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.pager .last .page {
+	border-right: 0px;
+}
+
+.pager a.page:hover {
+	background-color: white;
+}
+
+/*
+ TABLE STYLE
+ */
+
+.tablerenderer table.main {
+	border-collapse: collapse;
+	margin: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.tablerenderer table.main, .tablerenderer th, .tablerenderer td {
+	border: 0px;
+}
+
+.tablerenderer th {
+	height: 70px;
+	padding-right: 20px;
+}
+
+.tablerenderer th a {
+	padding-right: 20px;
+	text-decoration: none;
+	font-family: 'Open Sans Semi-bold', sans-serif;
+}
+
+.tablerenderer th a:hover {
+	background-color: white;
+}
+
+.tablerenderer th.sorting.asc a {
+	background: url('../img/asc.gif') no-repeat right;
+}
+
+.tablerenderer th.sorting.desc a {
+	background: url('../img/desc.gif') no-repeat right;
+}
+
+.tablerenderer tr.row {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e6e6e6;
+}
+
+.tablerenderer td.cell {
+	padding: 5px;
+	text-align: center;
+	position: relative;
+}
+
+.tablerenderer td.ingredients .cellcontent {
+	text-align: left;
+	display: inline-block;
+	width: 500px; /* doesn't resize to content although with inline-block it should because fuck you, so here's some fixed width, hope you're happy */
+}
+
+
+.tablerenderer tr .old {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+/*
+ COST STYLE
+ */
+
+.tablerenderer span.kind_cost .price {
+	padding-right: 16px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.tablerenderer span.kind_cost .price.gold {
+	background-image: url('http://www.gw2spidy.com/assets/v20130214v1/img/gold.png');
+}
+
+.tablerenderer span.kind_cost .price.silver {
+	background-image: url('http://www.gw2spidy.com/assets/v20130214v1/img/silver.png');
+}
+
+.tablerenderer span.kind_cost .price.copper {
+	background-image: url('http://www.gw2spidy.com/assets/v20130214v1/img/copper.png');
+}
+
+/*
+ ITEM STYLE
+ */
+
+ .tablerenderer span.kind_item {
+ 	text-align: left;
+ }
+
+.tablerenderer span.kind_item, .tablerenderer span.kind_specialitem {
+ 	display: inline-block;
+ 	width: 250px;
+ 	min-height: 85px;
+}
+
+.tablerenderer span.kind_item img.icon, .tablerenderer span.kind_specialitem img.icon  {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+}
+
+.tablerenderer span.kind_item div.name, .tablerenderer span.kind_specialitem div.name {
+	font-weight: bold;
+}
+
+.tablerenderer span.kind_item div.firstline, .tablerenderer span.kind_item div.secondline,
+.tablerenderer span.kind_specialitem div.firstline, .tablerenderer span.kind_specialitem div.secondline {
+	color: rgb(90, 90, 90);
+}
+
+.tablerenderer span.kind_item .name a,
+.tablerenderer span.kind_specialitem .name a {
+	vertical-align: text-bottom;
+}
+
+.tablerenderer span.kind_item .kind_cost .price,
+.tablerenderer span.kind_specialitem .kind_cost .price {
+	font-size: initial;
+}
+
+.tablerenderer .kind_text img {
+	padding-bottom: 2px;
+}
+
+.tablerenderer td * {
+	vertical-align: middle;
+}
+
+.tablerenderer .horrortable {
+	width: 100%;
+}
+
+.tablerenderer .horrortable td {
+	border: 0px;
+}
+
+.tablerenderer .horrortable .icon-row {
+	vertical-align: top;
+	width: 66px;
+}
+
+.item-parent {
+	position: relative;
+}
+
+.tablerenderer .kind_item .links {
+	display: none;
+	position: absolute;
+	width: 20px;
+	right: 0px;
+	bottom: 0px;
+	background-color: white;
+	border-width: 1px 1px 1px 0px;
+	border-color: #e6e6e6;
+	border-style: solid;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.tablerenderer .kind_item:hover .links {
+	display: block;
+	height: 100%;
+}
+
+/*
+.tablerenderer .kind_item:hover .horrortable {
+	border: 1px solid #e6e6e6;
+	background-color: white;
+	border-radius: 6px;
+}
+*/
+
+/*
+ TEXT STYLE
+ */
+
+.kind_text img {
+	margin-left: -5px;
+	vertical-align: text-bottom;
+}

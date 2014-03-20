@@ -1,0 +1,28 @@
+.gooddeed th.item, .gooddeed td.item {
+	max-width: 350px;
+}
+
+.gooddeed th.goldcost, .gooddeed th.profit, .gooddeed th.netprofit {
+	min-width: 80px;
+}
+
+.gooddeed th.ingredients {
+	min-width: 500px;
+}
+
+/*
+ OVERRIDDEN GENERIC COLOR INFORMATIONS
+ */
+
+.light-color-background {
+	background-color: #f8eaf8 !important;
+}
+
+.very-light-color-background {
+	background-color: #faf2fa !important;
+}
+
+.strong-color-foreground {
+	color: #680365 !important;
+}
+
