@@ -353,10 +353,10 @@ class Recipe(Base):
     @property
     def ingredients(self):
         for i in range(4):
-            iname = 'ingredient_%d_item'  % (i+1)
-            cname = 'ingredient_%d_count'  % (i+1)
-            if getattr(self, iname) is not None:
-                yield Ingredient(getattr(self, iname), getattr(self, cname))
+            ingredient_name = 'ingredient_%d_item'  % (i+1)
+            count_name = 'ingredient_%d_count'  % (i+1)
+            if getattr(self, ingredient_name) is not None:
+                yield Ingredient(getattr(self, ingredient_name), getattr(self, count_name))
 
     @property
     def has_ingredient_2(self):
