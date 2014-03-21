@@ -14,8 +14,6 @@ def update_from_tp():
     logger.debug("Opening a TP session.")
     tp_session = tp.Session()
     tp_session.open()
-    # initialize local variables
-    logger.debug("Run TP update cycle.")
     # read the block at current offset
     now = datetime.datetime.now()
     global _block_size, _offset
