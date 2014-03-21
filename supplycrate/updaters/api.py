@@ -140,14 +140,12 @@ def import_entry(name, data_id, session):
     upgrade_slot = None
     if upgrade_slot_id is not None:
         logger.debug('Item has an upgrade with data_id=%d.', upgrade_slot_id)
-        if session.query(Item.data_id).filter_by(gw2db_id=upgrade_slot_id).first() is not None:
+        if session.query(Item.data_id).filter_by(data_id=upgrade_slot_id).first() is not None:
             logger.debug('Upgrade already in DB, no need to add it.')
         else:
             logger.debug('Upgrade not in DB, adding it.')
             upgrade_slot = import_entry(None, upgrade_slot_id, session)
     # transform data from API/database
-    min_gw2db_id = session.query(func.min(Item.gw2db_id)).scalar() - 1
-    min_external_id = session.query(func.min(Item.external_id)).scalar() - 1
     attributes = (dict((_rev_attr_name[attr['attribute']], int(attr['modifier']))
                        for attr
                        in specific_data['infix_upgrade']['attributes'])
@@ -156,9 +154,7 @@ def import_entry(name, data_id, session):
                   else {})
     # update item
     item.name = data['name']
-    item.gw2db_id = item.gw2db_id or min_gw2db_id
     item.data_id = data_id
-    item.external_id = item.external_id or min_external_id
     item.type = _rev_type_id[data['type']]
     item.description = data['description']
     item.level = data['level']
@@ -218,7 +214,7 @@ def _get_next_id(session):
                        session.query(Item.data_id).\
                        filter_by(api_updated=False).\
                        order_by(Item.api_failed.desc()).\
-                       all())  # TODO: add random criteria to order_by
+                       all())  # TODO: add random criteria to order_by, keeping the api_failed order
         if len(_id_list) == 0:
             logger.debug('No more elements with api_updated=False; proceed downloading all elements.')
             _id_list = missing_ids(session)

@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/supplycrate/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="321" column="21" selection-start="10179" selection-end="10179" vertical-scroll-proportion="0.0" vertical-offset="6820" max-vertical-offset="8272">
+            <state line="149" column="72" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.39385474" vertical-offset="2490" max-vertical-offset="7766">
               <folding />
             </state>
           </provider>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="api.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supplycrate/updaters/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="216" column="100" selection-start="6881" selection-end="6881" vertical-scroll-proportion="0.46089387" vertical-offset="4312" max-vertical-offset="5302">
+            <state line="216" column="100" selection-start="6881" selection-end="6881" vertical-scroll-proportion="0.0" vertical-offset="4312" max-vertical-offset="5302">
               <folding />
             </state>
           </provider>
@@ -125,11 +125,11 @@
         <option value="$PROJECT_DIR$/supplycrate/__init__.py" />
         <option value="$PROJECT_DIR$/supplycrate/views.py" />
         <option value="$PROJECT_DIR$/supplycrate/controllers/grandmaster.py" />
-        <option value="$PROJECT_DIR$/supplycrate/models.py" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/__init__.py" />
         <option value="$PROJECT_DIR$/development.ini" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/grandmaster.py" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/api.py" />
+        <option value="$PROJECT_DIR$/supplycrate/models.py" />
       </list>
     </option>
   </component>
@@ -214,42 +214,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="supplycrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supplycrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supplycrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supplycrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="updaters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supplycrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supplycrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="supplycrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -803,13 +767,6 @@
         <state line="37" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.5638766" vertical-offset="404" max-vertical-offset="858" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="321" column="21" selection-start="10179" selection-end="10179" vertical-scroll-proportion="0.0" vertical-offset="6820" max-vertical-offset="8272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/updaters/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1034">
@@ -835,7 +792,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/updaters/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="100" selection-start="6881" selection-end="6881" vertical-scroll-proportion="0.46089387" vertical-offset="4312" max-vertical-offset="5302">
+        <state line="216" column="100" selection-start="6881" selection-end="6881" vertical-scroll-proportion="0.0" vertical-offset="4312" max-vertical-offset="5302">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="72" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.39385474" vertical-offset="2490" max-vertical-offset="7766">
           <folding />
         </state>
       </provider>
