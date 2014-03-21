@@ -1,6 +1,7 @@
 from supplycrate.models import MarketHistoryElement
 from supplycrate.updaters.api import update_from_api
 from supplycrate.updaters.gooddeed import update_gooddeed, update_karmaweaponsdata
+from supplycrate.updaters.grandmaster import update_from_recipe_api
 from supplycrate.updaters.gw2db import update_gw2db
 from supplycrate.updaters.markethistory import update_market_history
 from supplycrate.updaters.prices import update_from_tp
@@ -36,3 +37,5 @@ def register(app, settings):
         _schedule(app, update_market_history, True, (), seconds=MarketHistoryElement.TICK_SECONDS_LENGTH)
     if _enabled(settings, 'vendor'):
         _schedule(app, update_vendor, True, (settings,), days=1)
+    if _enabled(settings, 'recipe'):
+        _schedule(app, update_from_recipe_api, False, (), seconds=4)

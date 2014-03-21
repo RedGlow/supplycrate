@@ -30,6 +30,12 @@ _long_time_ago = datetime.datetime.now()
 _long_time_ago = _long_time_ago - datetime.timedelta(365 * 10)
 
 
+class Ingredient(object):
+    def __init__(self, item, count):
+        self.item = item
+        self.count = count
+
+
 class Item(Base):
     __tablename__ = 'items'
 
@@ -140,8 +146,8 @@ class Item(Base):
 
     # common fields
     data_id = Column(Integer, primary_key=True, nullable=False)
-    gw2db_id = Column(Integer, unique=True, index=True, nullable=False)
-    external_id = Column(Integer, unique=True, index=True, nullable=False)
+    gw2db_id = Column(Integer, unique=True, index=True, nullable=True)
+    external_id = Column(Integer, unique=True, index=True, nullable=True)
     name = Column(String(64), index=True, nullable=False)
     description = Column(Text)
     type = Column(SmallInteger, index=True, nullable=False)
@@ -300,5 +306,66 @@ class RG_Raw(Base):
     avg_profit_so = Column(Numeric)
 
 
-class RecipeGain(Base):
-    __tablename__ = 'recipe_gain'
+#class RecipeGain(Base):
+#    __tablename__ = 'recipe_gain'
+
+class RecipeItemType(Base):
+    __tablename__ = 'recipe_item_type'
+
+    id = Column(SmallInteger, primary_key=True)
+    name = Column(String(length=64), nullable=False)
+
+
+class Recipe(Base):
+    __tablename__ = 'recipe'
+
+    recipe_id = Column(Integer, primary_key=True)
+    type_id = Column(SmallInteger, ForeignKey(RecipeItemType.id))
+    output_item_id = Column(Integer, ForeignKey(Item.data_id), nullable=False, index=True)
+    output_item = relationship(Item, foreign_keys=[output_item_id])
+    output_item_count = Column(Integer, nullable=False)
+    min_rating = Column(Integer, nullable=False)
+    time_to_craft_ms = Column(Integer, nullable=False)
+    vendor_value = Column(Integer, nullable=False)
+    can_armorsmith = Column(Boolean, nullable=False, index=True)
+    can_artificer = Column(Boolean, nullable=False, index=True)
+    can_chef = Column(Boolean, nullable=False, index=True)
+    can_huntsman = Column(Boolean, nullable=False, index=True)
+    can_jeweler = Column(Boolean, nullable=False, index=True)
+    can_leatherworker = Column(Boolean, nullable=False, index=True)
+    can_tailor = Column(Boolean, nullable=False, index=True)
+    can_weaponsmith = Column(Boolean, nullable=False, index=True)
+    ingredient_1_item_id = Column(Integer, ForeignKey(Item.data_id), nullable=False, index=True)
+    ingredient_1_item = relationship(Item, foreign_keys=[ingredient_1_item_id])
+    ingredient_1_count = Column(Integer, nullable=False)
+    ingredient_2_item_id = Column(Integer, ForeignKey(Item.data_id), nullable=True, index=True)
+    ingredient_2_item = relationship(Item, foreign_keys=[ingredient_2_item_id])
+    ingredient_2_count = Column(Integer, nullable=True)
+    ingredient_3_item_id = Column(Integer, ForeignKey(Item.data_id), nullable=True, index=True)
+    ingredient_3_item = relationship(Item, foreign_keys=[ingredient_3_item_id])
+    ingredient_3_count = Column(Integer, nullable=True)
+    ingredient_4_item_id = Column(Integer, ForeignKey(Item.data_id), nullable=True, index=True)
+    ingredient_4_item = relationship(Item, foreign_keys=[ingredient_4_item_id])
+    ingredient_4_count = Column(Integer, nullable=True)
+    learned_from_item = Column(Boolean, nullable=False)
+    autolearned = Column(Boolean, nullable=False)
+
+    @property
+    def ingredients(self):
+        for i in range(4):
+            iname = 'ingredient_%d_item'  % (i+1)
+            cname = 'ingredient_%d_count'  % (i+1)
+            if getattr(self, iname) is not None:
+                yield Ingredient(getattr(self, iname), getattr(self, cname))
+
+    @property
+    def has_ingredient_2(self):
+        return self.ingredient_2_item is not None
+
+    @property
+    def has_ingredient_3(self):
+        return self.ingredient_3_item is not None
+
+    @property
+    def has_ingredient_4(self):
+        return self.ingredient_4_item is not None
