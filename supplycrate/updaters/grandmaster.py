@@ -19,7 +19,7 @@ def _fill_recipe_ids(session):
         # get a set of all recipe ids from gw2 api
         recipe_ids = set(json.load(urllib2.urlopen('https://api.guildwars2.com/v1/recipes.json'))['recipes'])
         # get a set of all recipe ids we already know about
-        known_recipe_ids = set(session.query(Recipe.recipe_id).all())
+        known_recipe_ids = set(recipe_id for recipe_id, in session.query(Recipe.recipe_id))
         # get the recipes we don't know
         unknown_recipe_ids = recipe_ids.difference(known_recipe_ids)
         # build a list with known recipes first, and unknown recipes afterwards (list is read from
