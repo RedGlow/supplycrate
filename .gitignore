@@ -1,2 +1,3 @@
 kombu.db
 SupplyCrate.egg-info/SOURCES.txt
+*.pyc
