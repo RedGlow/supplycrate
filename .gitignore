@@ -1,3 +1,9 @@
 kombu.db
 SupplyCrate.egg-info/SOURCES.txt
 *.pyc
+SupplyCrate.egg-info/PKG-INFO
+SupplyCrate.egg-info/dependency_links.txt
+SupplyCrate.egg-info/entry_points.txt
+SupplyCrate.egg-info/not-zip-safe
+SupplyCrate.egg-info/requires.txt
+SupplyCrate.egg-info/top_level.txt
