@@ -17,8 +17,7 @@ requires = [
     'pyramid-scheduler',
     'mysql-python',
     'pytz',
-    'python-dateutil',
-    'pyramid-jinja2'
+    'python-dateutil'
     ]
 
 setup(name='SupplyCrate',
