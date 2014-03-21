@@ -23,42 +23,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nigredo.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supplycrate/controllers/nigredo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="5375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gooddeed.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supplycrate/controllers/gooddeed.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="675">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gooddeed.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supplycrate/updaters/gooddeed.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="0" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0" vertical-offset="1985" max-vertical-offset="3075">
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/supplycrate/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="292" column="16" selection-start="9404" selection-end="9404" vertical-scroll-proportion="0.23728813" vertical-offset="7160" max-vertical-offset="7750">
+            <state line="321" column="21" selection-start="10179" selection-end="10179" vertical-scroll-proportion="0.0" vertical-offset="6820" max-vertical-offset="8272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grandmaster.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supplycrate/updaters/grandmaster.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="4" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="2486">
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/supplycrate/updaters/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="216" column="100" selection-start="6881" selection-end="6881" vertical-scroll-proportion="0.46089387" vertical-offset="4312" max-vertical-offset="5302">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.ini" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/development.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="2" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="2464">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supplycrate/updaters/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1034">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,8 +91,6 @@
         <option value="$PROJECT_DIR$/supplycrate/updaters/tp/session.py" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/tp/__init__.py" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/prices.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/supplycrate/updaters/api.py" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/gw2db.py" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/vendordata.py" />
         <option value="$USER_HOME$/supplycrate-environment/Lib/site-packages/pyramid/config/views.py" />
@@ -112,15 +117,19 @@
         <option value="$PROJECT_DIR$/supplycrate/controllers/nigredo.py" />
         <option value="$PROJECT_DIR$/supplycrate/controllers/darkfinder.py" />
         <option value="$PROJECT_DIR$/supplycrate/controllers/gooddeed.py" />
-        <option value="$PROJECT_DIR$/supplycrate/views.py" />
-        <option value="$PROJECT_DIR$/supplycrate/__init__.py" />
-        <option value="$PROJECT_DIR$/development.ini" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/karmaweaponsdata.py" />
-        <option value="$PROJECT_DIR$/supplycrate/updaters/__init__.py" />
         <option value="$PROJECT_DIR$/supplycrate/tablerenderer/model.py" />
         <option value="$PROJECT_DIR$/supplycrate/utils.py" />
         <option value="$PROJECT_DIR$/supplycrate/updaters/gooddeed.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/supplycrate/__init__.py" />
+        <option value="$PROJECT_DIR$/supplycrate/views.py" />
+        <option value="$PROJECT_DIR$/supplycrate/controllers/grandmaster.py" />
         <option value="$PROJECT_DIR$/supplycrate/models.py" />
+        <option value="$PROJECT_DIR$/supplycrate/updaters/__init__.py" />
+        <option value="$PROJECT_DIR$/development.ini" />
+        <option value="$PROJECT_DIR$/supplycrate/updaters/grandmaster.py" />
+        <option value="$PROJECT_DIR$/supplycrate/updaters/api.py" />
       </list>
     </option>
   </component>
@@ -128,7 +137,7 @@
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1618" />
-    <option name="height" value="1170" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -175,6 +184,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,9 +235,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supplycrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supplycrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supplycrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +263,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PyCharm virtualenvs/suppplycrate/Scripts/pserve-script.py" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
@@ -381,9 +408,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/supplycrate-environment/Scripts/python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="supplycrate" />
@@ -399,9 +426,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/supplycrate-environment/Scripts/python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="supplycrate" />
@@ -417,13 +444,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/supplycrate-environment/Scripts/python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="supplycrate" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/supplycrate-environment/Scripts/pserve-script.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../PyCharm virtualenvs/suppplycrate/Scripts/pserve-script.py" />
       <option name="PARAMETERS" value="development.ini" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -437,13 +464,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/supplycrate-environment/Scripts/python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="supplycrate" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/supplycrate-environment/Scripts/initialize_SupplyCrate_db-script.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../PyCharm virtualenvs/suppplycrate/Scripts/initialize_SupplyCrate_db-script.py" />
       <option name="PARAMETERS" value="development.ini" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -485,26 +512,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="1170" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24048224" sideWeight="0.4992722" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3154297" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24" sideWeight="0.4992722" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31417114" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24048224" sideWeight="0.5007278" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919848" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3798828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37967914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -532,13 +559,42 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="45" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/supplycrate-environment/Lib/site-packages/kombu/entity.py">
+    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/gooddeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="530" column="0" selection-start="18734" selection-end="18734" vertical-scroll-proportion="0.31892696" vertical-offset="12936" max-vertical-offset="18000" />
+        <state line="91" column="0" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0" vertical-offset="2002" max-vertical-offset="2706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="286" column="60" selection-start="9285" selection-end="9285" vertical-scroll-proportion="0.0" vertical-offset="6292" max-vertical-offset="6820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/controllers/nigredo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3655" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/controllers/gooddeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/gooddeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="0" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="2091" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="292" column="16" selection-start="9404" selection-end="9404" vertical-scroll-proportion="0.0" vertical-offset="4573" max-vertical-offset="5270">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/updaters/tp/exceptions.py">
@@ -561,26 +617,9 @@
         <state line="24" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.62742174" vertical-offset="179" max-vertical-offset="850" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="446" selection-end="446" vertical-scroll-proportion="0.6110283" vertical-offset="15" max-vertical-offset="1300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/mwt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="44" selection-start="251" selection-end="251" vertical-scroll-proportion="0.28015074" vertical-offset="77" max-vertical-offset="1900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyramid_tm-0.7-py2.7.egg/pyramid_tm/compat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transaction-1.4.1-py2.7.egg/transaction/_transaction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17050" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/updaters/prices.py">
@@ -593,31 +632,11 @@
         <state line="10" column="12" selection-start="147" selection-end="147" vertical-scroll-proportion="0.13877952" vertical-offset="84" max-vertical-offset="1100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/gw2db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="42" selection-start="5746" selection-end="5746" vertical-scroll-proportion="0.85044867" vertical-offset="3097" max-vertical-offset="4100" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/updaters/vendordata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="29" selection-start="2775" selection-end="2775" vertical-scroll-proportion="0.0" vertical-offset="1484" max-vertical-offset="2825">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/supplycrate-environment/Lib/site-packages/pyramid/renderers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="4" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.529927" vertical-offset="887" max-vertical-offset="15250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="16" selection-start="2463" selection-end="2475" vertical-scroll-proportion="0.0" vertical-offset="2825" max-vertical-offset="6125" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/supplycrate-environment/Lib/site-packages/paste/deploy/loadwsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="0" selection-start="4587" selection-end="4587" vertical-scroll-proportion="0.33225283" vertical-offset="3220" max-vertical-offset="18075" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/templatetags/filters.py">
@@ -670,19 +689,9 @@
         <state line="4" column="11" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.91708124" vertical-offset="347" max-vertical-offset="2175" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/templates/tablerenderer.jinja2">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="94" selection-start="148" selection-end="159" vertical-scroll-proportion="0.13321492" vertical-offset="0" max-vertical-offset="2400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/templates/tablerenderer_item.jinja2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="153" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/templates/tablerenderer_genericitem.jinja2">
@@ -700,11 +709,6 @@
         <state line="165" column="0" selection-start="5664" selection-end="5664" vertical-scroll-proportion="0.0" vertical-offset="3807" max-vertical-offset="8825" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/supplycrate-environment/Lib/site-packages/jinja2/environment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="396" column="15" selection-start="15624" selection-end="15624" vertical-scroll-proportion="0.0" vertical-offset="9127" max-vertical-offset="29375" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/templates/base.jinja2">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="26" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="388" max-vertical-offset="1025" />
@@ -715,109 +719,124 @@
         <state line="15" column="26" selection-start="296" selection-end="296" vertical-scroll-proportion="0.63559324" vertical-offset="0" max-vertical-offset="2600" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/supplycrate-environment/Lib/site-packages/sqlalchemy-0.9.3-py2.7-win-amd64.egg!/sqlalchemy/sql/schema.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="23" selection-start="3688" selection-end="3688" vertical-scroll-proportion="0.4145937" vertical-offset="2175" max-vertical-offset="84925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/supplycrate-environment/Lib/site-packages/sqlalchemy-0.9.3-py2.7-win-amd64.egg!/sqlalchemy/sql/expression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3027" selection-end="3027" vertical-scroll-proportion="0.33333334" vertical-offset="924" max-vertical-offset="2750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/updaters/markethistory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="41" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="1000" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/supplycrate-environment/Lib/site-packages/pyramid/config/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1177" column="0" selection-start="47684" selection-end="47684" vertical-scroll-proportion="0.33333334" vertical-offset="27158" max-vertical-offset="47350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="725" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="43" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/controllers/nigredo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/development.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="12" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.0" vertical-offset="1775" max-vertical-offset="2525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="823" selection-end="823" vertical-scroll-proportion="0.40677965" vertical-offset="160" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplycrate/controllers/gooddeed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/supplycrate-environment/Lib/site-packages/sqlalchemy-0.9.3-py2.7-win-amd64.egg!/sqlalchemy/sql/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="0" selection-start="6039" selection-end="6039" vertical-scroll-proportion="0.33333334" vertical-offset="4724" max-vertical-offset="13250">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/updaters/karmaweaponsdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
-          <folding />
-        </state>
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="9" selection-start="789" selection-end="789" vertical-scroll-proportion="0.5854063" vertical-offset="447" max-vertical-offset="1650">
-          <folding />
-        </state>
+        <state line="35" column="9" selection-start="789" selection-end="789" vertical-scroll-proportion="0.5854063" vertical-offset="447" max-vertical-offset="1650" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/tablerenderer/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="36" selection-start="8761" selection-end="8761" vertical-scroll-proportion="0.67118645" vertical-offset="6179" max-vertical-offset="9350">
-          <folding />
+        <state line="264" column="36" selection-start="8761" selection-end="8761" vertical-scroll-proportion="0.67118645" vertical-offset="6179" max-vertical-offset="9350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.8148148" vertical-offset="132" max-vertical-offset="1210">
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/updaters/gooddeed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0" vertical-offset="1985" max-vertical-offset="3075">
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="91" column="0" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.0" vertical-offset="1985" max-vertical-offset="3075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/controllers/nigredo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="-0.21002387" vertical-offset="484" max-vertical-offset="4642" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="743" selection-end="743" vertical-scroll-proportion="0.7453704" vertical-offset="250" max-vertical-offset="770" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/controllers/gooddeed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/controllers/grandmaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PyCharm virtualenvs/suppplycrate/Lib/site-packages/sqlalchemy/sql/sqltypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="6" selection-start="2626" selection-end="2626" vertical-scroll-proportion="0.3564815" vertical-offset="1430" max-vertical-offset="35750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PyCharm virtualenvs/suppplycrate/Lib/site-packages/sqlalchemy/orm/mapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1192" column="0" selection-start="48508" selection-end="48508" vertical-scroll-proportion="0.33333334" vertical-offset="25706" max-vertical-offset="59004" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/gw2db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="31" selection-start="2950" selection-end="2950" vertical-scroll-proportion="0.84418607" vertical-offset="1507" max-vertical-offset="3608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/templates/tablerenderer_item.jinja2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="144" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="430" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../PyCharm virtualenvs/suppplycrate/Lib/site-packages/paste/deploy/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.33259913" vertical-offset="971" max-vertical-offset="1672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.5638766" vertical-offset="404" max-vertical-offset="858" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/supplycrate/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="16" selection-start="9404" selection-end="9404" vertical-scroll-proportion="0.23728813" vertical-offset="7160" max-vertical-offset="7750">
+        <state line="321" column="21" selection-start="10179" selection-end="10179" vertical-scroll-proportion="0.0" vertical-offset="6820" max-vertical-offset="8272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1782" selection-end="1782" vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/grandmaster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="4" selection-start="2432" selection-end="2432" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="2486">
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="2" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="2464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplycrate/updaters/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="100" selection-start="6881" selection-end="6881" vertical-scroll-proportion="0.46089387" vertical-offset="4312" max-vertical-offset="5302">
+          <folding />
         </state>
       </provider>
     </entry>
