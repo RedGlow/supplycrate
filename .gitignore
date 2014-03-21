@@ -8,3 +8,4 @@ SupplyCrate.egg-info/not-zip-safe
 SupplyCrate.egg-info/requires.txt
 SupplyCrate.egg-info/top_level.txt
 kombu.db
+*.pyc
