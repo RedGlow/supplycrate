@@ -31,6 +31,9 @@ class Cost(Part):
             the actual price.
         """
         Part.__init__(self, 'cost')
+        for i in range(2):
+            for j in range(2):
+                assert price_matrix[i][j] is not None
         self.price_matrix = price_matrix
 
     def __neg__(self):

@@ -68,7 +68,7 @@
 	</tr>
 </thead>
 <tbody>
-	{% for row in table.rows %}
+	{% for row in table.rows() %}
 	<tr class="row{% if loop.index0 is divisibleby 2 %} very-light-color-background{% endif %}">
 		{% for cell in row.cells %}
 			<td class="cell {{table.column_descriptions|index(loop.index0)|attr('name')|default_if_none('')}}">

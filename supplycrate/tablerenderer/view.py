@@ -150,7 +150,6 @@ class _TableWrapper(_GenericWrapper):
         # return it
         return ordered_qs
 
-    @property
     def rows(self):
         # filter the query set
         filtered_queryset = self.__filter_categories()
@@ -269,6 +268,9 @@ class _CostWrapper(_GenericWrapper):
     def __init__(self, inner_object, buy_instant, sell_instant):
         _GenericWrapper.__init__(self, inner_object, [], buy_instant, sell_instant)
         self.real_cost = inner_object[int(buy_instant), int(sell_instant)]
+        if self.real_cost is None:
+            print "oh "
+        assert self.real_cost is not None
 
     @property
     def costparts(self):

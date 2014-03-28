@@ -18,12 +18,12 @@ def _schedule(app, func, do_cycle_0, args, **kwargs):
 
 
 def _enabled(settings, name):
-    return settings.get('supplycrate.updater.' + name, '0') == '1'
+    return settings.get('supplycrate.updater.' + name, '1') == '1'
 
 
 def register(app, settings):
-    update_karmaweaponsdata()
-    _schedule(app, update_gooddeed, True, (), seconds=60)
+    #update_karmaweaponsdata()
+    #_schedule(app, update_gooddeed, True, (), seconds=60)
     if _enabled(settings, 'gw2db'):
         _schedule(app, update_gw2db, settings['supplycrate.run_gw2db_import_at_startup'] == 'True',
                    (settings,), days=1)

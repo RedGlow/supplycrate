@@ -350,13 +350,23 @@ class Recipe(Base):
     learned_from_item = Column(Boolean, nullable=False)
     autolearned = Column(Boolean, nullable=False)
 
-    @property
-    def ingredients(self):
+    def _ingredients(self):
         for i in range(4):
             ingredient_name = 'ingredient_%d_item'  % (i+1)
             count_name = 'ingredient_%d_count'  % (i+1)
             if getattr(self, ingredient_name) is not None:
                 yield Ingredient(getattr(self, ingredient_name), getattr(self, count_name))
+
+    @property
+    def ingredients(self):
+        return list(self._ingredients())
+
+    @staticmethod
+    def count_attributes():
+        return [Recipe.ingredient_1_count,
+                Recipe.ingredient_2_count,
+                Recipe.ingredient_3_count,
+                Recipe.ingredient_4_count]
 
     @property
     def has_ingredient_2(self):

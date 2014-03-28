@@ -19,6 +19,7 @@ def main(global_config, **settings):
     config.add_route('nigredo', '/nigredo')
     config.add_route('darkfinder', '/darkfinder')
     config.add_route('gooddeed', '/gooddeed')
+    config.add_route('grandmaster', '/grandmaster')
     config.scan()
     app = config.make_wsgi_app()
 

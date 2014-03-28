@@ -130,7 +130,7 @@ def import_entry(name, data_id, session):
     try:
         data = gw2api.get_item_details(data_id)
     except gw2api.GW2APIException, e:
-        logger.info("Skipping item %s (data_id=%s), could not fill data through GW2API:\n%s",
+        logger.error("Skipping item %s (data_id=%s), could not fill data through GW2API:\n%s",
                     name or '(name unknown)', data_id, e)
         item.api_failed = True
         return None
